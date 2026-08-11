@@ -1,0 +1,65 @@
+{
+  "n_train": 38467,
+  "n_test": 12823,
+  "accuracy": 0.8958122124307885,
+  "precision": 0.9580255204835461,
+  "recall": 0.8990546218487395,
+  "f1": 0.9276037715400455,
+  "roc_auc": 0.9554299535436336,
+  "confusion_matrix": [
+    [
+      2928,
+      375
+    ],
+    [
+      961,
+      8559
+    ]
+  ],
+  "feature_importance": [
+    [
+      "Discount",
+      0.9522
+    ],
+    [
+      "Sub-Category",
+      0.0227
+    ],
+    [
+      "Market",
+      0.0106
+    ],
+    [
+      "Category",
+      0.0073
+    ],
+    [
+      "Sales",
+      0.0043
+    ],
+    [
+      "Shipping Cost",
+      0.0018
+    ],
+    [
+      "Region",
+      0.0006
+    ],
+    [
+      "Quantity",
+      0.0003
+    ],
+    [
+      "Segment",
+      0.0002
+    ],
+    [
+      "Ship Mode",
+      0.0
+    ],
+    [
+      "Order Priority",
+      0.0
+    ]
+  ]
+}
